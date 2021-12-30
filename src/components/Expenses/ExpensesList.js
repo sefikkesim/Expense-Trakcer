@@ -5,7 +5,7 @@ const ExpensesList = (props) => {
   if (props.filteredExpenses.length === 0) {
     return (
       <div className="expenses-list__fallback">
-        <h2>There is no Expenses</h2>
+        <h2>Found no expense</h2>
       </div>
     );
   }
